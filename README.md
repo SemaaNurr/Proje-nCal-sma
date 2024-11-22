@@ -1,2 +1,2 @@
-# Proje-nCal-sma
+# Proje-OnCalısma
 Yapay Zeka Yardımıyla Oluşturulan Giriş Sayfası 
