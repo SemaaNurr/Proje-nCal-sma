@@ -1,0 +1,86 @@
+/*HAKKIMIZDA CSS SAYFASI*/
+    /* Ana konteynerin stili */
+.hakkimizda-container {
+  font-family:'Courier New', Courier, monospace; /* Yazı tipi */
+  background-color: #f3f2e9; /* Arka plan rengi */
+  padding: 50px; /* İç boşluk */
+  max-width: 600px; /* Sayfanın genişliği */
+  margin: 200px auto; /* Ortalama */
+  border-radius: 100px; /* Köşeleri yuvarlama */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+/* Başlık için stil */
+.hakkimizda-baslik {
+  text-align: center; /* Ortaya hizalama */
+  color: #6e4b31; /* Kahverengi tonunda yazı rengi */
+  font-size: 32px; /* Yazı büyüklüğü */
+  margin-bottom: 20px; /* Alt boşluk */
+}
+
+/* Açıklama metni için stil */
+.hakkimizda-aciklama {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #333; /* Yazı rengi */
+  line-height: 1.6; /* Satır yüksekliği */
+  text-align: justify; /* Metni iki yana yasla */
+  margin-bottom: 20px; /* Alt boşluk */
+}
+
+/* "Bize Ulaşın" kısmı */
+.bize-ulasin h2 {
+    font-family: 'Courier New', Courier, monospace;
+  font-size: 20px; /* Yazı büyüklüğü */
+  color: #6e4b31; /* Başlık rengi */
+  margin-bottom: 10px; /* Alt boşluk */
+}
+
+.bize-ulasin p { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px; /* Yazı büyüklüğü */
+  color: #555; /* Yazı rengi */
+}
+
+/* "Ekip Tanışın" başlığı */
+.ekip-tanisin h2 {
+  font-size: 20px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*Yazı büyüklüğü */
+  color: #6e4b31; /* Kahverengi */
+  margin-bottom: 15px; /* Alt boşluk */
+}
+
+/* Ekip üyeleri için stil */
+.ekip-uyesi {
+  margin-bottom: 20px; /* Alt boşluk */
+}
+
+.ekip-uyesi h3 {
+  font-size: 18px; /* Üye ismi yazı büyüklüğü */
+  color: #6e4b31; /* Yazı rengi */
+  margin-bottom: 5px; /* Alt boşluk */
+}
+
+.ekip-uyesi p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14px; /* Üye açıklaması yazı büyüklüğü */
+  color: #555; /* Yazı rengi */
+  line-height: 1.5; /* Satır yüksekliği */
+}
+ /* Logo ve navigasyon */
+ .navbar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.8); /* Şeffaf bir navbar görünümü */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #4E4E50; /* Pastel tonda navbar yazı rengi */
+            margin: 0 15px;
+            font-size: 16px;
+            transition: color 0.3s; /* Renk değişimini yumuşak hale getirir */
+        }
+      

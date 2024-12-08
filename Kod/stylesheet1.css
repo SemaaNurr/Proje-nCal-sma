@@ -1,0 +1,118 @@
+/*ÜYE OL CSS SAYFASI*/
+.alt-cizgi {
+  
+    border-bottom: 25px solid #6e4b31;} /* Altına 2 piksel kalınlığında bir çizgi ekler */
+  
+    
+      
+      /* Genel stil ayarları */
+  body {
+    font-family: 'Arial', sans-serif; /* Yazı tipi */
+    margin: 100; /* Varsayılan boşlukları kaldır */
+    padding: 0; /* Varsayılan boşlukları kaldır */
+    display: flex; /* Merkezleme için flexbox kullanımı */
+    justify-content: center; /* Yatayda ortala */
+    align-items: center; /* Dikeyde ortala */
+    height: 100vh; /* Sayfa boyutunu tam ekran yap */
+    background-color: #f5f5f5; /* Arka plan rengi */
+  }
+  
+  /* Form kapsayıcısı */
+  .container {
+    background-color: #ffffff; /* Beyaz arka plan */
+    padding: 20px 30px; /* İç boşluklar */
+    border-radius: 10px; /* Kenarları yuvarla */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölgelendirme */
+    text-align: center; /* Metni ortala */
+    width: 300px; /* Genişlik */
+   
+  }
+  
+  /* Başlık stili */
+  .title {
+    color: #b57a5b; /* Başlık rengi */
+    font-size: 24px; /* Yazı boyutu */
+    margin-bottom: 10px; /* Başlık ile altındaki öğe arasındaki boşluk */
+  }
+  
+  /* Alt başlık stili */
+  .subtitle {
+    color: #777; /* Yazı rengi */
+    font-size: 14px; /* Yazı boyutu */
+    margin-bottom: 20px; /* Alt başlık ile form arasındaki boşluk */
+  }
+  
+  .subtitle a {
+    color: #b57a5b; /* Link rengi */
+    text-decoration: none; /* Alt çizgiyi kaldır */
+  }
+  
+  /* Form düzeni */
+  .form {
+    display: flex; /* Form elemanlarını dikeyde sıralama */
+    flex-direction: column; /* Elemanları dikey hizala */
+    gap: 10px; /* Elemanlar arasındaki boşluk */
+  }
+  
+  /* Etiket (label) stili */
+  label {
+    font-size: 12px; /* Yazı boyutu */
+    color: #555; /* Yazı rengi */
+    text-align: left; /* Sol hizalama */
+  }
+  
+  /* Giriş (input) alanı stili */
+  input {
+    padding: 10px; /* İç boşluk */
+    font-size: 14px; /* Yazı boyutu */
+    border: 1px solid #ddd; /* Kenarlık */
+    border-radius: 5px; /* Kenarları yuvarla */
+    background-color: #f9f9f9; /* Arka plan rengi */
+    outline: none; /* Seçildiğinde mavi kenarlığı kaldır */
+    transition: border-color 0.3s; /* Kenarlık rengindeki değişime animasyon ekle */
+  }
+  
+  /* Giriş alanına odaklanıldığında kenarlık rengi */
+  input:focus {
+    border-color: #b57a5b; /* Odakta kenarlık rengi */
+  }
+  
+  /* Kayıt ol butonu */
+  .btn {
+    padding: 10px; /* İç boşluk */
+    font-size: 14px; /* Yazı boyutu */
+    color: #fff; /* Yazı rengi */
+    background-color: #d4c5a9; /* Butonun arka plan rengi */
+    border: none; /* Kenarlık yok */
+    border-radius: 5px; /* Kenarları yuvarla */
+    cursor: pointer; /* Tıklanabilir imleç */
+    transition: background-color 0.3s; /* Arka plan rengindeki değişime animasyon ekle */
+  }
+  
+  /* Buton üzerine gelindiğinde arka plan rengi */
+  .btn:hover {
+    background-color: #b57a5b; /* Hover efekti */
+    /* Logo ve navigasyon */
+  
+  
+  }
+  
+  .navbar {
+              position: absolute;
+              top: 0;
+              width: 100%;
+              padding: 20px 50px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              background: rgba(255, 255, 255, 0.8); /* Şeffaf bir navbar görünümü */
+              box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+          }
+          .navbar a {
+              text-decoration: none;
+              color: #4E4E50; /* Pastel tonda navbar yazı rengi */
+              margin: 0 15px;
+              font-size: 16px;
+              transition: color 0.3s; /* Renk değişimini yumuşak hale getirir */
+          }
+  
